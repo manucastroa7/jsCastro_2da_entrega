@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#formulario {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    font-family: 'Inter', sans-serif;
+    margin: 1rem;
+}
+
+input {
+    margin: 3px;
+}
+
+.boxHabitacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-hab {
+    width: 50%;
+    border-radius: 1rem;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gran Hotel Avenida</title>
+
+    <!-- LINK CSS -->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- FUENTES -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+        <h1 class="titulo">Bienvenidos al Gran Hotel Avenida</h1>
+
+        <div>
+            <form id="formulario" action="">
+                <fieldset>
+
+                    <legend>ESCRIBINOS</legend>
+
+                    <div>
+                        <label for="nombre">
+                            Completa tu nombre
+                        </label>
+                        <input type="text" name="nombre" placeholder="Ingresa tu Nombre" id="nombreTxt">
+                    </div>
+
+                    <div>
+                        <label for="apellido">
+                            Completa tu Apellido
+                        </label>
+                        <input type="text" name="apellido" placeholder="Ingresa tu Apellido" id="apellidoTxt">
+                    </div>
+
+                    <div>
+                        <label for="edad">
+                            Completa tu Edad
+                        </label>
+                        <input type="number" name="edad" placeholder="Ingresa tu edad" id="edadTxt">
+
+                    </div>
+
+                    <div>
+                        <label for="cantidadPax">
+                            Completa Cantidad Pax
+                        </label>
+                        <input type="number" name="edad" placeholder="Ingresa cantidad Pax" id="cantPaxTxt">
+
+
+                    </div>
+
+
+                    <div>
+                        <label for="cantidadNoches">Cantidad de Noches</label>
+                        <input type="number" name="edad" placeholder="Ingresa cantidad Pax" id="cantNochesTxt">
+                    </div>
+
+                    <div>
+                        <input class="btnCargar" type="submit" value="Cargar Pasajero">
+
+                    </div>
+
+                    <div>
+                        <h4>Nombre</h4>
+                        <label type="text" id="nom"></label>
+                    </div>
+                    <div>
+                        <h4>Apellido</h4>
+                        <label type="text" id="ape"></label>
+                    </div>
+                    <div>
+                        <h4>Edad</h4>
+                        <label type="text" id="ed"></label>
+                    </div>
+                    <div>
+                        <h4>Cantidad Pasajeros</h4>
+                        <label type="text" id="canPax"></label>
+                    </div>
+                    <div>
+                        <h4>Cantidad Noches</h4>
+                        <label type="text" id="canNoches"></label>
+                    </div>
+
+                </fieldset>
+            </form>
+
+
+
+
+        </div>
+        <section class="contenedorHabitaciones">
+            <h2>Información de la habitación</h2>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
